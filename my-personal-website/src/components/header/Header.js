@@ -4,6 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header>
+        <img className='letter_j' src={require('../../assets/images/letter_j.png')} alt='letter_j' />
         <nav>
             <ul>
             <li><a href="#about">About</a></li>

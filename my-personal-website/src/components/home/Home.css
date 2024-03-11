@@ -12,23 +12,23 @@
     flex-direction: column; 
     justify-content: flex-start;
     align-items: flex-end;
-    padding: 300px 30px 0 0;
+    padding: 10% 5% 0 0;
     text-align: right;
   }
 
 h1{
-    width: 320px;
-    font-size: 40px;
+    width: 80%;
+    font-size: 100px;
     font-weight: bold;
     margin: 0;
 }
 
 h2{
-    width: 380px;
-    font-size: 18.5px;
+    width: 80%;
+    font-size: 40px;
     font-weight: bold;
     margin: 5px;
-    line-height: 23px;
+    line-height: 42px;
 }
 
 .welcome{
@@ -37,4 +37,12 @@ h2{
 
 b{
     color: #d43636;
+}
+
+.profile_pic{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 20%;
+    padding:20px 20px 20px 100px;
 }

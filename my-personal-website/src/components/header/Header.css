@@ -1,6 +1,10 @@
 header {
     padding: 24px;
-    box-shadow: #d43636;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
   
 nav ul {
@@ -27,5 +31,10 @@ nav ul {
     border: 2px #d43636 solid;
     padding: 8px;
     border-radius: 5px;
+  }
+
+  .letter_j{
+    width: 45px;
+    height: 45px;
   }
   
