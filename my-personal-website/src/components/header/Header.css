@@ -1,0 +1,31 @@
+header {
+    padding: 24px;
+    box-shadow: #d43636;
+}
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: #d43636;;
+  }
+
+  li:last-child {
+    border: 2px #d43636 solid;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  

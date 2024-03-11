@@ -1,0 +1,40 @@
+.Home{
+    display: flex;
+}
+
+.left{
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 300px 30px 0 0;
+    text-align: right;
+  }
+
+h1{
+    width: 320px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2{
+    width: 380px;
+    font-size: 18.5px;
+    font-weight: bold;
+    margin: 5px;
+    line-height: 23px;
+}
+
+.welcome{
+    color: #d43636;
+}
+
+b{
+    color: #d43636;
+}
